@@ -1,0 +1,107 @@
+/* ------------ Positionnement général ------------ */
+
+*{box-sizing: border-box;}
+
+.container{
+	width: 90%;
+	max-width: 1000px;
+	margin: 0 auto;
+	/*Bordures ajoutées dans le but de voir les 
+	  limites du container*/
+	border-right: 2px dashed rgb(141, 141, 141);
+	border-left: 2px dashed rgb(141, 141, 141);
+}
+
+/* ------------ Typographie ------------ */
+
+body{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 1.2rem;
+	line-height: 1.6;
+}
+
+h1{text-transform: uppercase;}
+
+h2{
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	padding: 15px;
+	background-color: rgba(0, 0, 0, 0.15);
+}
+
+.btn, .carte a{
+	background-color: rgba(255, 255, 255, 0.5);
+	border: 1px solid rgb(64, 98, 248);
+	padding: 5px 10px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.btn:hover, .carte a:hover{
+	background-color: rgb(64, 98, 248);
+	color: #fff;
+}
+
+/* ------------ Sections ------------ */
+
+section{
+	padding: 30px 0 30px;
+	border-top: 5px solid rgb(197, 197, 197);
+}
+
+#sect-liens{
+	background-color: rgb(103 229 182);
+}
+
+#sect-utilisateurs{
+	background-color: rgb(132 190 255);
+}
+
+#sect-carte{
+	background-color: rgb(251 133 133);
+}
+
+
+/* ------------ Composantes  ------------ */
+
+/*  Listes  */
+
+.liste-liens{
+	padding: 0;
+	list-style-type: none;
+	display: block;
+	margin: 10px;
+}
+.liste-liens a{
+	background-color: rgb(0, 161, 118);
+	border: 3px solid rgb(0, 154, 113);
+	border-radius: 5PX;
+	color: white;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+.liste-liens a:hover{border-color: rgb(0, 76, 56);}
+
+.liste-utilisateurs{
+	padding: 0;
+}
+.liste-utilisateurs li{
+	padding: 10px;
+	color: #fff;
+	background-color: #333;
+	border-radius: 50px;
+	display: inline-block;
+	margin: 10px;
+}
+.liste-utilisateurs img{
+	border-radius: 50px;
+	margin: 0;
+}
+
+/*  Cartes  */
+
+.carte{
+	background-color: #fff;
+	border: 1px solid;
+}
+
+
